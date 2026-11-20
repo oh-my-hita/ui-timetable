@@ -1,0 +1,18 @@
+{
+  "id": "com.stupidtree.hita.ui.timetable",
+  "name": "课表",
+  "version": "0.1.1",
+  "entryClass": "com.stupidtree.hita.ui.timetable.TimetableUiPlugin",
+  "apiVersion": 7,
+  "composeVersion": "1.6.8",
+  "capabilities": [
+    "hita.ui.timetable"
+  ],
+  "mainTabs": [
+    {
+      "id": "timetable",
+      "title": "课表",
+      "order": 0
+    }
+  ]
+}
