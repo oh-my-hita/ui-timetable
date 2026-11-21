@@ -50,7 +50,7 @@ import java.util.Locale
 class TimetableUiPlugin : ComposeUiPlugin {
     override val id = "com.stupidtree.hita.ui.timetable"
     override val displayName = "课表"
-    override val requiresApi = 7
+    override val requiresApi = 11
 
     override fun createView(context: Context, host: PluginUiHost): View = ComposeView(context).apply {
         setContent {
